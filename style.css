@@ -32,6 +32,30 @@ body {
     background-size: 100vw auto, 100% 100%;
     background-size: max(100vw, 30em) auto, 100% 100%;
   }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    /* Your existing styles for the card class */
+    /* For demonstration purposes, let's add some padding and a border */
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.footer {
+    /* Your existing styles for the footer class */
+    /* For demonstration purposes, let's add some padding and a background color */
+    padding: 10px;
+    background-color: none;
+    color: #fff;
+    font-size: 12px;
+}
+
   
   @keyframes background-move {
     0% {
@@ -55,10 +79,13 @@ body {
     border-radius: 20px;
     padding: 40px 35px;
     margin: 100px auto 0;
+    margin-bottom: 40px;
     box-shadow: 10px 10px 10px rgb(42, 187, 236, 0.5);
-  
 }
 
+.footer{
+    display: block;
+}
 
 .card .search input {
     border: none;
