@@ -10,35 +10,39 @@
 </head>
 
 <body>
-    <div class="card">
-        <div class="search">
-            <input type="text" placeholder="enter city name" spellcheck="false">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-        </div>
-        <div class="weather">
-            <h2 class="city"></h2>
-            <img src="sun.png" class="weatherIcon">
-            <h1 class="temp"></h1>
-            <h3 class="tempMaxMin"></h3>
-            <h3 class="description"></h3>
-            <div class="details">
-                <div class="col">
-                    <i class="fa-solid fa-water fa-2x"></i>
-                    <div>
-                        <p class="humidity"></p>
-                        <p>Humidity</p>
+    <div class="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="enter city name" spellcheck="false">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="weather">
+                <h2 class="city"></h2>
+                <img src="sun.png" class="weatherIcon">
+                <h1 class="temp"></h1>
+                <h3 class="tempMaxMin"></h3>
+                <h3 class="description"></h3>
+                <p class="local-time"></p> <!-- New element for displaying local time -->
+                <div class="details">
+                    <div class="col">
+                        <i class="fa-solid fa-water fa-2x"></i>
+                        <div>
+                            <p class="humidity"></p>
+                            <p>Humidity</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <i class="fa-solid fa-wind fa-2x"></i>
-                    <div>
-                        <p class="wind"></p>
-                        <p>wind speed</p>
+                    <div class="col">
+                        <i class="fa-solid fa-wind fa-2x"></i>
+                        <div>
+                            <p class="wind"></p>
+                            <p>wind speed</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+   
     <footer>Copyright &copy; 2023 by Fred Pekyi | All Rights Reserved.</footer>
     <script src="script.js"></script>
 </body>
