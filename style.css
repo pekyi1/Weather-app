@@ -7,7 +7,6 @@
 
 body {
     background: #111;
-    background: linear-gradient(135deg, #00feba, #5b548a) no-repeat;
     height: 100vh;
     overflow: hidden;
 }
@@ -39,13 +38,6 @@ body {
     align-items: center;
 }
 
-.card {
-    /* Your existing styles for the card class */
-    /* For demonstration purposes, let's add some padding and a border */
-    padding: 20px;
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
-}
 
 .footer {
     /* Your existing styles for the footer class */
@@ -187,7 +179,7 @@ footer{
     color: #f1f1f1;
 }
 
-@media(width <= 500px){
+@media(width <= 900px){
     .card .search input{
         width: 150px;
         margin-left: 15px;
@@ -201,4 +193,17 @@ footer{
     .card .search button {
         margin-right: 20px;
     }
+
+    .format-box p{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+}
+
+.format-box{
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    color: rgb(42, 187, 236);;
 }
